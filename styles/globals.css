@@ -1,0 +1,51 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.nav{
+  background-color: rgb(244, 244, 244);
+  display: flex;
+  padding: 10px;
+  flex-wrap: wrap;
+}
+.link{
+  text-decoration: none;
+  color: rgb(58, 57, 57);
+  display: flex;
+}
+.contain{
+  width: 900px;
+  margin : auto;
+}
+.input{
+  width: 670px;
+}
+.label{
+  margin-right: 15px;
+}
+.list{
+  max-height: 75vh;
+  /* minHeight: 0; */
+   overflow-y: scroll;
+   margin-right: 5px;
+   /* background-color: gainsboro; */
+  }
+.list::-webkit-scrollbar {
+  display: none; /* for Chrome, Safari, and Opera */
+}
+@media screen and (max-width : 830px) {
+  .contain{
+    width: 100%;
+    margin: 0%;
+  }
+  
+}
+@media screen and (max-width : 500px) {
+  .search{
+    width: 100%;
+    margin: 10px 0px;
+
+  }
+  
+}
